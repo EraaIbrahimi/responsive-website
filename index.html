@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo-nav-wrapper">
+          <div class="header__logo header__menu-logo">
+            <img src="./assets/images/main-profile-pic.png" alt="" />
+            <p>It’s me</p>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-list-item"><a href="#">home</a></li>
+              <li class="header__nav-list-item"><a href="#">about</a></li>
+              <li class="header__nav-list-item"><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__socials-cv">
+          <nav class="header__socials-cv-nav">
+            <ul class="header__socials-cv-nav-list">
+              <li>
+                <a href="#"><img src="./assets/icons/github.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/tiktok.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/youtube.svg" alt="" /></a>
+              </li>
+              <li class="header__link--download-cv">
+                <a class="link link--outlined" href="#">Download CV</a>
+              </li>
+              <li class="header__menu-overlay--icon">
+                <a class="" href="#">
+                  <img src="./assets/icons/menu.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="menu-overlay hidden">
+        <div class="header__logo-nav-wrapper menu-overlay__logo-nav-wrapper">
+          <div class="header__logo menu-overlay__logo">
+            <img src="./assets/images/main-profile-pic.png" alt="" />
+            <p>It’s me</p>
+          </div>
+          <div class="menu-overlay__close-btn"></div>
+          <nav class="menu-overlay__nav">
+            <ul class="header__nav-list menu-overlay__nav-list">
+              <li class="header__nav-list-item menu-overlay__nav-list-item">
+                <a href="#">home</a>
+              </li>
+              <li class="header__nav-list-item menu-overlay__nav-list-item">
+                <a href="#">about</a>
+              </li>
+              <li class="header__nav-list-item menu-overlay__nav-list-item">
+                <a href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu-overlay__link">
+          <a class="link" href="#">Download CV</a>
+        </div>
+      </section>
+      <section class="hero">
+        <div class="hero__intro">
+          <div class="hero__intro--title">
+            <p>
+              Let's learn
+              <i class="hero__intro--icon"
+                ><img src="./assets/icons/open_book.svg" alt=""
+              /></i>
+            </p>
+            <p>
+              to code
+              <i class="hero__intro--icon"
+                ><img src="./assets/icons/connect.svg" alt=""
+              /></i>
+            </p>
+            <p>an application</p>
+          </div>
+          <div class="hero__image-radial-waves">
+            <div class="hero__intro--description">
+              <p>
+                with me <span class="highlight-text"> arif iskandar</span>, a
+                software developer who loves to share how to code in many
+                programing languages and multi platforms.
+              </p>
+              <a href="" class="link">Start learn</a>
+            </div>
+          </div>
+
+          <nav class="header__socials-cv-nav hero__socials-nav">
+            <ul class="hero__socials-nav-list">
+              <li>
+                <a href="#"><img src="./assets/icons/github.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/instagram.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/tiktok.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./assets/icons/youtube.svg" alt="" /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="hero__cards">
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/iphone.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/flutter.svg" alt="" />
+                <img src="./assets/icons/tailwind.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">Bookies</div>
+                <div class="hero__card--description-text">
+                  Read digital book app
+                </div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/iphone-weather.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/bootstrap.svg" alt="" />
+                <img src="./assets/icons/android-studio.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">BWalet</div>
+                <div class="hero__card--description-text">Business wallet</div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/iphone-black.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/flutter.svg" alt="" />
+                <img src="./assets/icons/tailwind.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">Gojek</div>
+                <div class="hero__card--description-text">
+                  Home screen gojek apps
+                </div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/code-laptop-screen.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/flutter.svg" alt="" />
+                <img src="./assets/icons/tailwind.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">Bookies</div>
+                <div class="hero__card--description-text">
+                  Read digital book app
+                </div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/desk-setup.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/bootstrap.svg" alt="" />
+                <img src="./assets/icons/android-studio.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">BWalet</div>
+                <div class="hero__card--description-text">Business wallet</div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card--image-wrapper">
+              <img src="./assets/images/iphone-social-media.png" alt="" />
+              <div class="hero__card--tools-wrapper">
+                <img src="./assets/icons/flutter.svg" alt="" />
+                <img src="./assets/icons/tailwind.svg" alt="" />
+              </div>
+            </div>
+            <div class="hero__card--title">
+              <div class="hero__card--description">
+                <div class="hero__card--description-title">Gojek</div>
+                <div class="hero__card--description-text">
+                  Home screen gojek apps
+                </div>
+              </div>
+              <div class="hero__card--readers">
+                <img src="./assets/images/user-profile-pic-man.png" alt="" />
+                <img src="./assets/images/user-profile-pic-woman.png" alt="" />
+                <img src="./assets/images/user-profile-pic-boy.png" alt="" />
+                <div class="hero__card--circle">99+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="link link--outlined" href="">Load more</a>
+      </section>
+      <section class="about">
+        <div class="about__intro">
+          <div class="about__image-radial-waves">
+            <div class="about__intro--title">
+              <p>
+                It's me
+                <i class="about__image-wrapper"
+                  ><img src="./assets/images/main-profile-pic.png" alt=""
+                /></i>
+              </p>
+              <p>Arif Iskandar</p>
+            </div>
+          </div>
+          <div class="about__intro--description">
+            <p>
+              I like to code and keep it simple, try something new, and learn
+              more. I think sharing knowledge is the best practice to improve my
+              skills, and I try to do it.
+            </p>
+            <br />
+            <p>
+              I am currently the Chief Technology Officer at dSociety, a startup
+              to help students prepare for their exams.
+            </p>
+          </div>
+        </div>
+        <div class="about__cards">
+          <div class="about__cards--white-overlay"></div>
+          <div class="about__cards-column">
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-marilyn.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Marilyn Siphron</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Remix and React Training
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Tellus mauris adipiscing dignissim sodales. Id dui venenatis
+                mollis faucibus.
+              </div>
+            </div>
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-adison.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Adison Westervelt</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Senior Program Manager at Microsoft
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Hendrerit diam a, morbi tristique egestas commodo ullamcorper
+                ut. Aenean ipsum tempus, felis nibh amet mollis id sem sit.
+                Venenatis aliquam tellus viverra nullam. Consequat cras ac donec
+                nunc.
+              </div>
+            </div>
+          </div>
+          <div class="about__cards-column">
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-marley.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Marley Siphron</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Jobs
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Habitant ut augue eu accumsan tellus ultrices integer. Gravida
+                elementum egestas tellus condimentum bibendum suspendisse ut.
+                Blandit.
+              </div>
+            </div>
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-marilyn-man.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Marilyn Siphron</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Remix and React Training
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Libero in egestas pellentesque purus, nullam. Consectetur
+                commodo odio interdum neque ullamcorper sit.
+              </div>
+            </div>
+          </div>
+          <div class="about__cards-column">
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-adison-man.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Adison Westervelt</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Senior Program Manager at Microsoft
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Orci penatibus luctus felis in aliquam adipiscing. Vulputate
+                condimentum ullamcorper pellentesque dictumst fusce.
+              </div>
+            </div>
+            <div class="about__card">
+              <div class="about__card--profile">
+                <div class="about__card--profile-image">
+                  <img
+                    src="./assets/images/user-profile-pic-marley-man.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about__card--trainer-info">
+                  <div class="about__card--trainer-name">Marley Siphron</div>
+                  <div class="about__card--trainer-occupation highlight-text">
+                    Jobs
+                  </div>
+                </div>
+              </div>
+              <div class="about__card--comment">
+                Vitae purus ipsum eget leo at sed facilisi nisl. Ornare
+                suspendisse netus in nunc eget facilisis accumsan gravida nisl.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__redirect">
+          <p class="about__redirect--title">What are you waiting for?</p>
+          <a class="link" href="#">Let's start</a>
+        </div>
+        <div class="about__redirect about__redirect-mobile">
+          <p class="about__redirect--title">So, what are you waiting for?</p>
+          <a class="link" href="#">Let's start</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>
