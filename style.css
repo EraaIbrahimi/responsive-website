@@ -502,7 +502,6 @@ img {
     width: 70%;
     background-size: 550.31px 552.42px;
     background-position: 125px -50px;
-    outline: 1px solid;
   }
   .hero__intro--title,
   .about__intro--title {
@@ -552,7 +551,6 @@ img {
   .about__image-radial-waves::before {
     background-size: 550.31px 552.42px, 56px 56px;
     top: 1500px;
-    /* outline: 1px solid red; */
     left: initial;
     right: 0px;
     width: 550.31px;
