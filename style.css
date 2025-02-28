@@ -417,7 +417,6 @@ img {
     display: none;
   }
 }
-/* TABLET  */
 @media (max-width: 923px) {
   .header__socials-cv-nav-list :nth-last-child(n + 3) {
     display: none;
@@ -438,6 +437,7 @@ img {
     max-width: 320.5px;
   }
 }
+/* TABLET  */
 @media (max-width: 768px) {
   .container {
     padding: 0 47px;
@@ -454,9 +454,11 @@ img {
     display: none;
   }
   .about__image-radial-waves::before {
-    background-size: 550.31px 552.42px;
+    background-size: 550.31px 612.42px;
+    left: initial;
+    right: 0px;
     top: 1300px;
-    background-position: calc(100% - 120px) 20px;
+    background-position: 95px 110px;
   }
   .about__cards {
     grid-template-columns: 1fr 1fr;
@@ -500,6 +502,7 @@ img {
     width: 70%;
     background-size: 550.31px 552.42px;
     background-position: 125px -50px;
+    outline: 1px solid;
   }
   .hero__intro--title,
   .about__intro--title {
@@ -536,12 +539,29 @@ img {
   /* ABOUT SECTION */
   .about__intro {
     padding: 32px 0;
+    justify-content: flex-start;
+    /* gap: 0; */
+  }
+  .about__image-wrapper {
+    display: none;
   }
   .about__intro--description {
     font-size: 1rem;
     line-height: 1.625rem;
   }
-  .about__cards {
+  .about__image-radial-waves::before {
+    background-size: 550.31px 552.42px, 56px 56px;
+    top: 1500px;
+    /* outline: 1px solid red; */
+    left: initial;
+    right: 0px;
+    width: 550.31px;
+    aspect-ratio: 1;
+    background-position: calc(100% + 230px) 50px, calc(100% - 17px) 299px;
+    background-image: url(./assets/icons/circles.svg),
+      url(./assets/images/main-profile-pic.png);
+  }
+  .about__intro--image .about__cards {
     padding-bottom: 36px;
   }
   .about__cards :nth-child(3),
